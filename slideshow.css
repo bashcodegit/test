@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.slide-frames{
+    overflow: hidden;
+    height: 500px;
+    width: 800px;
+    margin-top: 20px;
+    margin-left: 360px;
+}
+@keyframes slide_animation{
+    0%{left: 0px;}
+    10%{left: 0px;}
+    20%{left: 800px;}
+    30%{left: 800px;}
+    40%{left: 1600px;}
+    50%{left: 1600px;}
+    60%{left: 800px;}
+    70%{left: 800px;}
+    80%{left: 0px;}
+    90%{left: 0px;}
+    100%{left: 0px;}
+}
+.slide-images{
+    width: 3200px;
+    height: 500;
+    margin: 0 0 0  -2400px;
+    position: relative;
+    animation-name: slide_animation;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+   animation-direction: alternate;
+}
+.images4{
+    width: 800px;
+    height: 500px;
+    position: relative;
+    float: left;
+}
