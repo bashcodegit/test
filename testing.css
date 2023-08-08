@@ -1,0 +1,9 @@
+
+body{
+    margin: 0;
+}
+.sample-box{
+    width: 100px;
+    height: 200px;
+    border-style: dotted;
+}
